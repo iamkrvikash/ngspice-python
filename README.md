@@ -1,6 +1,6 @@
 # ngspice-python
 
-Code example to run Ngspice using Python Script
+Code example to run Ngspice Raw File using Python Script
 
 1. In this CMOS inverter example has been used.
 
