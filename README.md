@@ -2,15 +2,9 @@
 
 Code example to run Ngspice Raw File using Python Script
 
-1. In this CMOS inverter example has been used.
+1. In this CMOS inverter example has been shown.
 
->Go to directory where "simrun.raw" file is present.
->In the example, it is in Downloads folder
-```sh
-cd C:\Users\Hp\Downloads
-```
-
-2. Import NgSpicedata module using sys.path.append method
+2. Import NgSpicedata module present in repo using sys.path.append method
 ```sh
 import sys
 sys.path.append(r"C:\Users\Hp\Downloads")
