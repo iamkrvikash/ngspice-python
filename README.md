@@ -6,8 +6,6 @@ Code example to run Ngspice Raw File using Python Script
 
 2. Import NgSpicedata module present in repo using sys.path.append method
 ```sh
-import sys
-sys.path.append(r"C:\Users\Hp\Downloads")
 from ngspicedata import *
 ```
 
