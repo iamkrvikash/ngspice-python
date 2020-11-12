@@ -4,7 +4,7 @@ Code example to run Ngspice Raw File using Python Script
 
 1. In this CMOS inverter example has been shown.
 
-2. Import NgSpicedata module present in repo using sys.path.append method
+2. Import NgSpicedata module present in repo
 ```sh
 from ngspicedata import *
 ```
