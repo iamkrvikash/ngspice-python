@@ -2,37 +2,37 @@
 
 Code example to run Ngspice Raw File using Python Script
 
-1. In this CMOS inverter example has been shown.
 
-2. Import NgSpicedata module present in repo
+
+1. Import NgSpicedata module present in repo
 ```sh
 from ngspicedata import *
 ```
 
-3. Import Matplotlib module for plotting purpose
+2. Import Matplotlib module for plotting purpose
 ```sh
 from pylab import *
 import matplotlib.pyplot as pl
 ```
 
-4. Load the simrun file using
+3. Load the simrun file using
 ```sh
 data=NgspiceData("simrun.raw")
 ```
 
-5. Print the simulation signal
+4. Print the simulation signal
 ```sh
 sig_names = data.lssig('print') 
 ```
 
-6. Store values in x an y
+5. Store values in x an y
 >In example code for inverter two signals "in" and "out" voltage is there.
 ```sh
 x = data.evalsig('in')
 y= data.evalsig('out')
 ```
 
-7. Plot the Inverter Graph
+6. Plot the Inverter Graph
 ```sh
 fig = figure(1)
 fig.clf()
