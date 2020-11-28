@@ -37,6 +37,8 @@ y= data.evalsig('out')
 fig = figure(1)
 fig.clf()
 plot(x,y,'b-')
+plt.xlabel('v(in)')
+plt.ylabel('v(out)')
 grid(True)
 pl.show()
 ```
